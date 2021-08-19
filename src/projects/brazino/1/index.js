@@ -1,3 +1,5 @@
+import './scss/index.scss';
+
 // entry point firstBrazino
 const x = 15;
 
