@@ -25,6 +25,18 @@ module.exports = env => {
         output: {
             path: path.resolve(__dirname, 'build'),
             filename: '[name].build.js'
+        },
+        module: {
+            rules: [
+                {
+                test: /\.(js)$/,
+                exclude: /node_modules/,
+                use: ['babel-loader']
+                }
+            ]
+        },
+        resolve: {
+            extensions: ['*', '.js']
         }
     };
 };

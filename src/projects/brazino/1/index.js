@@ -1,2 +1,4 @@
 // entry point firstBrazino
-console.log('hi there1');
+const x = 15;
+
+console.log('hi there1', x);
