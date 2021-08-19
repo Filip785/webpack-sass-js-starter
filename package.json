@@ -1,0 +1,19 @@
+{
+  "name": "webpack-sass-js-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Filip785/webpack-sass-js-starter.git",
+  "author": "Filip785 <fdjuricic98@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "build-brazino-1": "webpack --mode development --env project=firstBrazino",
+    "build-brazino-2": "webpack --mode development --env project=secondBrazino",
+    "build-all": "webpack --mode development",
+    "build-prod": "webpack --mode=production"
+  },
+  "devDependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
