@@ -25,7 +25,7 @@ OR
 
 ### *TO-DO*:
 - ~~Add [`webpack-dev-server`](https://www.npmjs.com/package/webpack-dev-server) and HMR~~
-~~- Implement producion webpack config file and make all loaders work with it (currently only dev is implemented)~~
-~~- Add code minifying for prod~~
+- ~~Implement producion webpack config file and make all loaders work with it (currently only dev is implemented)~~
+- ~~Add code minifying for prod~~
 - Add [`postcss-loader`](https://www.npmjs.com/package/postcss-loader) (mainly for prefixing and other useful postcss features)
 - Optionally add `.babelrc` file if we are doing some more advanced babel configs
