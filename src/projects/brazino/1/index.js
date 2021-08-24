@@ -1,4 +1,4 @@
-import './scss/index.scss';
+import './scss/firstBrazino.scss';
 
 // entry point firstBrazino
 const x = 15;

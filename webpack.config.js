@@ -44,6 +44,7 @@ module.exports = env => {
     }
 
     return {
+        mode: 'development',
         entry: selectedProject ? {
             [selectedProject]: allProjects[selectedProject]
         } : allProjects,

@@ -6,24 +6,25 @@
   "author": "Filip785 <fdjuricic98@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build-brazino-1": "webpack serve --mode development --env project=firstBrazino",
-    "build-brazino-2": "webpack serve --mode development --env project=secondBrazino",
-    "build-all": "webpack --mode development",
-    "build-prod": "webpack --mode=production"
+    "build-brazino-1": "webpack serve --env project=firstBrazino",
+    "build-brazino-2": "webpack serve --env project=secondBrazino",
+    "build-all": "webpack",
+    "build": "webpack --config webpack.config.prod.js"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
     "babel-loader": "^8.2.2",
     "css-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.0",
     "node-sass": "^6.0.1",
     "sass-loader": "^12.1.0",
     "style-loader": "^3.2.1",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.0.0",
-    "html-loader": "^2.1.2"
+    "webpack-dev-server": "^4.0.0"
   },
   "babel": {
     "presets": [
